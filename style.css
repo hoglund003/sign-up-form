@@ -1,4 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
 * {
   padding: 0;
   margin: 0;
+
+  font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  background-color: #f9fafb;
+  min-height: 100%;
+  display: flex;
+}
+
+.image {
+  background-image: url("img/plant.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 40%;
+}
+
+.bg-image {
+  width: 100%;
+}
+
+.banner {
+  margin-top: 6.5rem;
+  background-color: rgba(0, 0, 0, 0.26);
+  width: 100%em;
+  margin-bottom: 50%;
+
+  display: flex;
+}
+
+.banner span {
+  color: white;
+  font-size: 2rem;
+  align-self: center;
+  margin-left: 3rem;
+  font-size: 3rem;
+}
+
+.banner img {
+  width: 10em;
+  border-radius: 50%;
+}
+
+.content > div, .content > form > div {
+  padding: 1rem 3rem;
+}
+
+.content *  {
+  margin-bottom: 1rem;
+}
+
+.content label  {
+  margin-bottom: 0;
+}
+
+.text {
+  width: 60%;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-top: 5rem;
+}
+
+.sign-up {
+  width: 100%;
+  background-color: white;
+}
+
+.sign-up .flex-container {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  display: flex;
+}
+
+.sign-up .flex-container div {
+  margin-right: 5rem;
+}
+
+.sign-up label {
+  display: block;
+}
+
+button {
+  background-color: #596d48;
+  border: none;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  color: white;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #596d48;
+}
+
+form {
+}
+
+input {
+  border: 1px solid rgb(204, 204, 204);
+  border-width: 2px;
+  filter: drop-shadow(2px 2px 1px white);
+  border-radius: 5px;
+  font-size: 0.7rem;
+  width: 14rem;
+  padding: 0.3rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #587de6;
+  box-shadow: none;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.486));
+}
+
